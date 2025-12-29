@@ -1,13 +1,12 @@
 import React from "react";
 import Navbar from "../Component/Header/Navbar";
-import Footer from "../Component/Header/Footer/Footer";
+import Footer from "../Component/Footer/Footer";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-[full ] mx-auto flex flex-col min-h-screen">
+    <div className="max-w-[1400px] mx-auto flex flex-col min-h-screen">
       <Navbar />
-      <Footer/>
-
+      <Footer />
     </div>
   );
 };
